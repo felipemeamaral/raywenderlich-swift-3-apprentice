@@ -48,4 +48,35 @@ let lastName = "Amaral"
 let fullName = "\(firstName) \(lastName)"
 let myDetails = "Hello, my name is \(fullName)"
 
-//Tuples
+// Tuples
+let coordinates: (Int, Int) = (2, 3)
+let anotherCoordinate = (2, 3)
+let doubleCoordinates = (2.0, 3.0)
+let mixedTypesCoordinate = (2, 3.0)
+let namedCoordinates = (x: 21, y: 32)
+var altitude = namedCoordinates.x
+var latitude = namedCoordinates.y
+print("Your latitude is \(latitude) and altitude is equal to \(altitude)")
+
+// Mini-exercises
+let year = (month: 12, day: 1, year: 2017, average: 32)
+let day = year.day
+let average = year.average
+var variableTuple = (month: 12, day: 1, year: 2017, average: 32)
+variableTuple.average = 14
+print(variableTuple.average)
+
+// Numbers
+let a: Int16 = 12
+let b: UInt8 = 255
+let c: Int32 = -1000000
+let answer = Int(a) + Int(b) + Int(c)
+
+let string: String = "😀"
+
+let tuple = (100, 1.5, 10)
+let value = tuple.1
+
+
+
+
